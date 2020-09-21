@@ -2,7 +2,7 @@
 unit_list = {'Pound': 453.59,
              'Ounce': 28.35,
              'Carat': 0.2,
-             'Troy ounce':31.1,
+             'Troy ounce': 31.1,
              'Kilogram': 1000,
              'Gram': 1,
              'Tonne': 1000000,
@@ -20,4 +20,5 @@ convert_number = float(input('Enter the number:\n'))
 # Here is calculations
 after_conversion = convert_number*unit_list[first_unit]/unit_list[second_unit]
 
-print(str(convert_number)+' '+first_unit+' -> '+str(after_conversion)+' '+second_unit)
+print(str(convert_number) + " " + first_unit + " -> " + str(after_conversion)
+      + " " + second_unit)
