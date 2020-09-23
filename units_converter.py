@@ -6,7 +6,8 @@ unit_list = {'Pound': 453.59,
              'Kilogram': 1000,
              'Gram': 1,
              'Tonne': 1000000,
-             'Milligram': 0.001}
+             'Milligram': 0.001,
+             'Grain': 0.0648}
 
 print("It is units converter. List of units in converter:")
 for key in unit_list:
