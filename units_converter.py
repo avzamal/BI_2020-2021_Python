@@ -7,6 +7,7 @@ unit_list = {'Pound': 453.59,
              'Centner': 100000,
              'Kilogram': 1000,
              'Gram': 1,
+             'Dram': 1.77,
              'Tonne': 1000000,
              'Milligram': 0.001}
 
