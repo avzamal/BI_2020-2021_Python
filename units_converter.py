@@ -1,4 +1,4 @@
-# All values of the converter is in the keys of the list
+# All values of the converter is in the keys of the dictionary
 # and all values are in grams
 unit_list = {'Pound': 453.59,
              'Ounce': 28.35,
@@ -15,13 +15,13 @@ print("It is units converter. List of units in converter:")
 for key in unit_list:
     print(key, end="\n")
 # User enters the units and the value
-first_unit = input('Choose the unit you want to convert: \n')
+first_unit1 = input('Choose the unit you want to convert: \n')
 second_unit = input('Choose the unit you want to convert to: \n')
-print(first_unit+' -> '+second_unit)
+print(first_unit1+' -> '+second_unit)
 convert_number = float(input('Enter the number:\n'))
 
 # Here is calculations
-after_conversion = convert_number*unit_list[first_unit]/unit_list[second_unit]
+after_conversion = convert_number*unit_list[first_unit1]/unit_list[second_unit]
 
-print(str(convert_number) + " " + first_unit + " -> " + str(after_conversion)
+print(str(convert_number) + " " + first_unit1 + " -> " + str(after_conversion)
       + " " + second_unit)
