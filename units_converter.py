@@ -2,7 +2,7 @@
 # and all values are in grams
 unit_list = {'Pound': 453.59,
              'Ounce': 28.35,
-             'Carat': 0.2,
+             'Carat': 0.3,
              'Troy ounce': 31.1,
              'Centner': 100000,
              'Kilogram': 1000,
