@@ -19,7 +19,6 @@ print(first_unit1+' -> '+second_unit2)
 convert_number = float(input('Enter the value:\n'))
 
 # It is calculations
-after_conversion = convert_number*unit_dict[first_unit1]/unit_dict[second_unit2]
-
-print(str(convert_number) + " " + first_unit1 + " -> " + str(after_conversion)
+print(str(convert_number) + " " + first_unit1 + " -> " +
+      str(convert_number*unit_dict[first_unit1]/unit_dict[second_unit2])
       + " " + second_unit2)
