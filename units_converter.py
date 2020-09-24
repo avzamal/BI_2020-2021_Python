@@ -2,7 +2,7 @@
 # and all values are in grams
 unit_list = {'Pound': 453.59,
              'Ounce': 28.35,
-             'Carat': 0.2,
+             'Carat': 0.3,
              'Kilogram': 1000,
              'Gram': 1,
              'Tonne': 1000000,
