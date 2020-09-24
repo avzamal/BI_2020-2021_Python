@@ -1,4 +1,5 @@
-# enter the 2 numbers and operation symbol and check first_num and second_num is numbers
+# enter the 2 numbers and operation symbol and check first_num
+# and second_num is numbers
 first_num = input()
 if not first_num.isnumeric():
     print('First number is not a number')
