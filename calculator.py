@@ -1,4 +1,7 @@
-# enter the 2 numbers and operation symbol and check first_num and second_num is numbers
+"""
+enter the 2 numbers and operation symbol and
+check first_num and second_num is numbers
+"""
 first_num = input()
 if not first_num.isnumeric():
     print('First number is not a number')
@@ -18,12 +21,10 @@ elif action == '+':
 elif action == '*':
     print(first_num * second_num)
 elif action == '/':
-    if second_num != 0: #check second_num is not zero
+    # check second_num is not zero
+    if second_num != 0:
         print(first_num / second_num)
     else:
         print('Division by zero')
 else:
     print('Try another operation')
-
-
-
