@@ -18,12 +18,10 @@ elif action == '+':
 elif action == '*':
     print(first_num * second_num)
 elif action == '/':
-    if second_num != 0: #check second_num is not zero
+    if second_num != 0:
+        # check second_num is not zero
         print(first_num / second_num)
     else:
         print('Division by zero')
 else:
     print('Try another operation')
-
-
-
