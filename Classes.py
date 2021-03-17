@@ -2,7 +2,7 @@ class Dna:
 
     def __init__(self, sequence):
         self.sequence = sequence.upper()
- 
+
     def gc_content(self):
         total_gc = self.sequence.count('G') + self.sequence.count('C')
         return total_gc / len(self.sequence)
