@@ -1,7 +1,6 @@
 class Dna:
     
     def __init__(self, sequence):
-        
         self.sequence = sequence.upper()
         
     def gc_content(self):
@@ -14,8 +13,8 @@ class Dna:
         return inverted_sequence.translate(translation_table)
     
     def __iter__(self):
-          for each in self.sequence:
-              yield each
+        for each in self.sequence:
+            yield each
 
     def __eq__(self, other):
         if isinstance(other, Dna):
@@ -28,12 +27,11 @@ class Dna:
     def transcribe(self):
         translation_table = str.maketrans({'T':'U'})
         return Rna(self.sequence.translate(translation_table))
-    
+
 
 class Rna:
     
     def __init__(self, sequence):
-        
         self.sequence = sequence.upper()
         
     def gc_content(self):
@@ -46,8 +44,8 @@ class Rna:
         return inverted_sequence.translate(translation_table)
     
     def __iter__(self):
-          for each in self.sequence:
-              yield each
+        for each in self.sequence:
+            yield each
 
     def __eq__(self, other):
         if isinstance(other, Dna):
